@@ -1,0 +1,218 @@
+body{
+    background-image:url(green-images/15.png);
+    background-size: cover;
+}
+
+
+.button-wrapper{
+    background-color: rgba(0, 0, 0, 0.582);
+    border: solid black;
+    border-radius: 15px;
+    border-width: 5px;
+    width: 20rem;
+    min-height: 27rem;
+    max-height: 30rem;
+    padding-left:30px;
+    position: absolute;
+    top: 50px;
+    margin-top: 7rem;
+    margin-left: 36rem;
+}
+
+.button-wrapper button{
+    background-color: rgb(3 32 1 / 76%);
+    border-radius: 10px;
+    border: solid gray;
+    color: white;
+    font-size: large;
+    font-style: italic;
+    font-weight: 700;
+    padding: 10px;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.button-wrapper h1{
+    color: rgba(252, 240, 15, 0.848);
+    text-align: center;
+    padding-bottom: 10px;
+    text-decoration:underline rgb(192, 183, 148);
+}
+
+.button-wrapper button:hover{
+    background-color: black;
+    cursor: pointer;    
+}
+
+#modal-one{
+    display: none;
+    position:absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 100;
+    background-image: url(green-images/11.png);
+    background-size: contain;
+}
+
+#store-detail{
+    width: 50%;
+    margin: auto;
+    border: solid 5px rgb(201, 178, 90); 
+    background-color: rgb(201, 178, 90);  
+    text-align: center;
+    box-shadow: 10px 10px 20px;
+}
+
+#modal-one button{
+    color: brown;
+    font-size: large;
+    font-weight: 800;
+    background-color: #8B8589;
+}
+
+#modal-two{
+    display: none;
+    position:absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 100;
+    background-image: url(green-images/11.png);
+    background-size: contain;
+}
+
+#Opening-closing{
+    width: 50%;
+    margin: auto;
+    border: solid 5px rgb(201, 178, 90); 
+    background-color: rgb(201, 178, 90);  
+    text-align: center;
+    box-shadow: 10px 10px 20px;
+}
+
+#modal-two button{
+    color: brown;
+    font-size: large;
+    font-weight: 800;
+    background-color: #8B8589;
+}
+
+#modal-three{
+    display: none;
+    position:absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 100;
+    background-image: url(green-images/6.png);
+    background-size: contain;
+}
+
+#did-you-know{
+    width: 50%;
+    margin: auto;
+    border: solid 5px rgb(201, 178, 90); 
+    background-color: rgb(201, 178, 90);  
+    text-align: center;
+    box-shadow: 10px 10px 20px;
+}
+
+#modal-three button{
+    color: brown;
+    font-size: large;
+    font-weight: 800;
+    background-color: #8B8589;
+}
+
+#modal-four{
+    display: none;
+    position:absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 100;
+    background-image: url(green-images/7.png);
+    background-size: contain;
+}
+
+#tip1{
+    width: 50%;
+    margin: auto;
+    border: solid 5px rgb(201, 178, 90); 
+    background-color: rgb(201, 178, 90);  
+    text-align: center;
+    box-shadow: 10px 10px 20px;
+}
+
+#modal-four button{
+    color: brown;
+    font-size: large;
+    font-weight: 800;
+    background-color: #8B8589;
+}
+
+#modal-five{
+    display: none;
+    position:absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 100;
+    background-image: url(green-images/9.png);
+    background-size: contain;
+}
+
+#tip2{
+    width: 50%;
+    margin: auto;
+    border: solid 5px rgb(201, 178, 90); 
+    background-color: rgb(201, 178, 90);  
+    text-align: center;
+    box-shadow: 10px 10px 20px;
+}
+
+#modal-five button{
+    color: brown;
+    font-size: large;
+    font-weight: 800;
+    background-color: #8B8589;
+}
+
+#modal-six{
+    display: none;
+    position:absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 100;
+    background-image: url(green-images/12.png);
+    background-size: contain;
+}
+
+#tip-video{
+    width: 400px;
+    margin: auto;
+    border: solid 5px rgb(254, 253, 249); 
+    background-color: #fefdfc;  
+    text-align: center;
+    box-shadow: 10px 10px 20px;
+}
+
+#tip-video video{
+    height: 700px;
+    width: 400px;
+}
+
+#modal-six button{
+    color: brown;
+    font-size: large;
+    font-weight: 800;
+    background-color: #8B8589;
+}

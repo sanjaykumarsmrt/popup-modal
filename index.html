@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>POPUP</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="modal" class="button-wrapper">
+        <h1>Plant Store</h1>
+        <button onclick="showModal1()">Online Store Details</button>
+        <button onclick="showModal2()">Store Opening & Closing Time</button>
+        <button onclick="showModal3()">Did U Know ?</button>
+        <button onclick="showModal4()">Plants Care Tip 1</button>
+        <button onclick="showModal5()">Plant Care Tip 2</button>
+        <button onclick="showModal6()">HousePlants Care Tip Video</button>
+    </div>
+
+    <div id="modal-one">
+        <div id="store-detail">
+            <img src="green-images/1.png" alt="1.png">
+             <button onclick="closeModal1()">Back to Home</button>
+        </div>
+    </div>
+
+    <div id="modal-two">
+        <div id="Opening-closing">
+            <img src="green-images/2.png" alt="2.png">
+            <button onclick="closeModal2()">Back to Home</button>
+        </div>
+    </div>
+
+    <div id="modal-three">
+        <div id="did-you-know">
+            <img src="green-images/3.png" alt="3.png">
+            <button onclick="closeModal3()">Back to Home</button>
+        </div>
+    </div>
+
+    <div id="modal-four">
+        <div id="tip1">
+            <img src="green-images/4.png" alt="4.png">
+            <button onclick="closeModal4()">Back to Home</button>
+        </div>
+    </div>
+
+    <div id="modal-five">
+        <div id="tip2">
+            <img src="green-images/5.png" alt="5.png">
+            <button onclick="closeModal5()">Back to Home</button>
+        </div>
+    </div>
+
+    <div id="modal-six">
+        <div id="tip-video">
+            <video controls src="green-images/video1.mp4"></video>
+            <button onclick="closeModal6()">Back to Home</button>
+        </div>
+    </div>
+
+    <script>
+        function showModal1() {
+            document.getElementById("modal-one").style.display = "block"
+        }
+        function closeModal1(){
+            document.getElementById("modal-one").style.display ="none"
+        }
+
+        function showModal2() {
+            document.getElementById("modal-two").style.display = "block"
+        }
+        function closeModal2(){
+            document.getElementById("modal-two").style.display ="none"
+        }
+
+        function showModal3() {
+            document.getElementById("modal-three").style.display = "block"
+        }
+        function closeModal3(){
+            document.getElementById("modal-three").style.display ="none"
+        }
+
+        function showModal4() {
+            document.getElementById("modal-four").style.display = "block"
+        }
+        function closeModal4(){
+            document.getElementById("modal-four").style.display ="none"
+        }
+
+        function showModal5() {
+            document.getElementById("modal-five").style.display = "block"
+        }
+        function closeModal5(){
+            document.getElementById("modal-five").style.display ="none"
+        }
+
+        function showModal6() {
+            document.getElementById("modal-six").style.display = "block"
+        }
+        function closeModal6(){
+            document.getElementById("modal-six").style.display ="none"
+        }
+    </script>
+</body>
+</html>
